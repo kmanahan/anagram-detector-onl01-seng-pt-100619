@@ -15,7 +15,7 @@ def match(arr)
 arr_list = []
 
 #split word
-word_array = @word.split(//).sort.join 
+word_array = @word.split(//).sort
 
 
 #comapre each index in anagram array and see if any match word array
