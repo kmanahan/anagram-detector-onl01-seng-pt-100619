@@ -10,15 +10,10 @@ end
 def split_word 
 end 
 binding.pry
-def sort_anagram(anagram,index)
-  
-  anagram[index].split("").sort
-end 
 
 
 #create method to compare("match"} anagram and word which would be inside anagram_list?
 def match(arr)
-#binding.pry
 arr_list = []
 
 #split word
