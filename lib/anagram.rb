@@ -14,7 +14,7 @@ anagram_list = []
 #split word
 word_array = @word.split(//)
 
-#binding.pry
+binding.pry
 
 #iterate through word and sort
 word_array.each do |x| x.sort
