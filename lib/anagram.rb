@@ -10,7 +10,7 @@ end
 def match(arr)
   binding.pry
     arr.select do |x|
-    	@word.split('').sort == word.split('').sort
+    	@word.split('').sort == x.split('').sort
     end
     
     # here, we are given an array of words.
