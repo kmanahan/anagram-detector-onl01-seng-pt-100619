@@ -1,27 +1,36 @@
 require "pry"
 class Anagram 
-  binding.pry
-
+  
 attr_accessor :word
 
 def initialize(word)
   @word = word
 end 
- 
+#create method to split word
+def split_word 
+end 
+binding.pry
+def sort_anagram(anagram,index)
+  
+  anagram[index].split("").sort
+end 
 
 
 #create method to compare("match"} anagram and word which would be inside anagram_list?
 def match(arr)
+#binding.pry
 arr_list = []
 
 #split word
-word_array = @word.split(//).sort.join 
+word_array = word.split(//).sort.join 
 
+#binding.pry
 
 #comapre each index in anagram array and see if any match word array
 #comparing whole word_array to each index in anagram array
+
 #iterate each index of anagram and sort each index
-#arr[0].split("").sort
+#anagram[0].split("").sort
 #=> ["e", "h", "l", "l", "o"]
 #compare sorted anagram to word_array 
 #=> ["a", "d", "e", "i", "p", "r"]
@@ -33,9 +42,9 @@ word_array = @word.split(//).sort.join
 #else 
 # #return an empty array if false 
 # arr_list
-end
-end 
 
+end 
+end
 
 # result = {}
 
