@@ -22,7 +22,7 @@ binding.pry
 anagram.split("").sort.join
 
 #check to see if they are equal
-if word_array == anagram
+#if word_array == anagram
 
 #return all matches if true
 
@@ -33,6 +33,7 @@ anagram_list
 end 
 end
 end
+
 
 
 end
