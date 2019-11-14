@@ -14,7 +14,7 @@ result = []
 #split word
 words = @word.split(//).sort.join
 
-#binding.pry
+binding.pry
 
 
 
