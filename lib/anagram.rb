@@ -12,7 +12,7 @@ def match(arr)
 result = []
 
 #split word
-words = @word.split(//).sort.join
+words = @word.split(//).sort.uniq
 
 binding.pry
 
