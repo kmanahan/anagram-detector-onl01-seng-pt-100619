@@ -23,12 +23,6 @@ if words == arr.join.split(//).sort.join
   return 
     words
 
-
-#check to see if they are equal
-#if word_array == arr
-
-#return all matches if true
-
 else 
 # #return an empty array if false 
 return result
