@@ -22,7 +22,7 @@ result << arr.join.split(//).sort.uniq.join
 if words == result
   #return all matches in an array
   return 
-    words
+    result
 
 else 
 # #return an empty array if false 
