@@ -14,7 +14,7 @@ result = []
 #split word
 words = @word.split(//).sort.join
 
-binding.pry
+#binding.pry
 
 
 
@@ -29,9 +29,9 @@ if words == arr.join.split(//).sort.join
 
 #return all matches if true
 
-# else 
+else 
 # #return an empty array if false 
-# anagram_list
+result
 
 end 
 
