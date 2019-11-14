@@ -22,7 +22,7 @@ words = @word.split(//).sort.join
 if words == arr.join.split(//).sort.join
   return 
     words
-  end
+
 
 #check to see if they are equal
 #if word_array == arr
@@ -34,7 +34,7 @@ else
 return result
 end
 end
-end 
+
 
 
 
