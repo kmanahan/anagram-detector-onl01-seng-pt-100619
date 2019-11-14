@@ -9,8 +9,8 @@ end
 
 def match(arr)
   binding.pry
-    arr.select do |word2|
-    	@word.split('').sort == word2.split('').sort
+    arr.select do |word_in_arr|
+    	@word.split('').sort == word_in_arr.split('').sort
     end
     
     # here, we are given an array of words.
