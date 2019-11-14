@@ -6,9 +6,7 @@ attr_accessor :word
 def initialize(word)
   @word = word
 end 
-#create method to split word
-def split_word 
-end 
+ 
 #binding.pry
 
 
