@@ -10,8 +10,7 @@ end
 def match(arr)
   binding.pry
   result = []
-  words = @word.split(//)
-  words.each do |x| x.sort
+  words = @word.split(//).sort
   arr.sort
   
 end
