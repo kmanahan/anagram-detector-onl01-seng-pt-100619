@@ -11,6 +11,7 @@ def match(arr)
   binding.pry
   result = []
   words = @word.split(//)
+  words.each do |x| x.sort
   arr.sort
   
 end
