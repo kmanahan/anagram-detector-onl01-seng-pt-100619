@@ -31,7 +31,6 @@ anagram.split("").sort.join
 # anagram_list
 
 end 
-end
 
 
 
