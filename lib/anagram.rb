@@ -38,6 +38,7 @@ word_array == arr
 end 
 end
 end
+end
 
 # result = {}
 
