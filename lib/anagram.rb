@@ -16,8 +16,7 @@ word_array = @word.split(//).sort
 
 binding.pry
 
-#iterate through word and sort
-word_array.each do |x| x.sort
+
 
 #split anagram
 anagram.split("")
