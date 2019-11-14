@@ -11,7 +11,7 @@ def match(arr)
   result = []
   words = @word.split(//).join 
   arr.sort
-  end 
+  
 end
 
 end
