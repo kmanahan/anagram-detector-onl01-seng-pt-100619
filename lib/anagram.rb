@@ -37,6 +37,7 @@ if word_array == arr
 
 end 
 end
+end
 
 # result = {}
 
