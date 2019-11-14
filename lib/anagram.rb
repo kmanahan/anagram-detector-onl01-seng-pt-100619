@@ -8,6 +8,7 @@ def initialize(word)
 end 
 
 def match(arr)
+  binding.pry
   result = []
   words = @word.split(//).join 
   arr.sort
