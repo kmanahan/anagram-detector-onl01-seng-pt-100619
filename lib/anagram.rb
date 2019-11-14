@@ -19,7 +19,7 @@ binding.pry
 
 
 #split anagram
-anagram.sort
+joined = anagram.join
 
 #check to see if they are equal
 #if word_array == anagram
