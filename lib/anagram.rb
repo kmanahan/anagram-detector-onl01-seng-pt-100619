@@ -21,12 +21,12 @@ word_array = @word.split(//).sort.join
 #comapre each index in anagram array and see if any match word array
 #comparing whole word_array to each index in anagram array
 #iterate each index of anagram and sort each index
-arr[0].split("").sort
+#arr[0].split("").sort
 #=> ["e", "h", "l", "l", "o"]
 #compare sorted anagram to word_array 
 #=> ["a", "d", "e", "i", "p", "r"]
 #check to see if they are equal
-if word_array == arr
+#if word_array == arr
 
 #return all matches if true
 
@@ -35,8 +35,7 @@ if word_array == arr
 # arr_list
 
 end 
-end
-end
+
 
 # result = {}
 
