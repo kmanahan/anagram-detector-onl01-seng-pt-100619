@@ -7,7 +7,7 @@ def initialize(word)
   @word = word
 end 
  
-#binding.pry
+binding.pry
 
 
 #create method to compare("match"} anagram and word which would be inside anagram_list?
@@ -17,7 +17,6 @@ arr_list = []
 #split word
 word_array = word.split(//).sort.join 
 
-#binding.pry
 
 #comapre each index in anagram array and see if any match word array
 #comparing whole word_array to each index in anagram array
