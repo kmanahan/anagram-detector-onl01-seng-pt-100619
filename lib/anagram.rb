@@ -8,9 +8,10 @@ def initialize(word)
 end 
 
 def match(arr)
-result = []
-words = @word.split(//).join 
-arr.each do |x| x.sort
-end 
+  result = []
+  words = @word.split(//).join 
+  arr.each do |x| x.sort
+  end 
+end
 
 end
