@@ -14,7 +14,7 @@ result = []
 #split word
 words = @word.split(//).sort.uniq
 
-#binding.pry
+binding.pry
 
 result << arr.join.split(//).sort.uniq
 
