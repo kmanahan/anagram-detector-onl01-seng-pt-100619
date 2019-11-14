@@ -9,7 +9,7 @@ end
 
 def match(arr)
   binding.pry
-    arr.select do |word|
+    arr.select do |x|
     	@word.split('').sort == word.split('').sort
     end
     
