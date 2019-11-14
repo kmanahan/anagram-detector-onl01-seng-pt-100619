@@ -22,7 +22,7 @@ def match(arr)
 arr_list = []
 
 #split word
-word_array = @word.split(//).sort
+word_array = word.split(//).sort.join 
 
 #binding.pry
 
@@ -35,17 +35,33 @@ word_array = @word.split(//).sort
 #compare sorted anagram to word_array 
 #=> ["a", "d", "e", "i", "p", "r"]
 #check to see if they are equal
-if word_array == arr
+#if word_array == arr
 
 #return all matches if true
 
-else 
-#return an empty array if false 
-arr_list
+#else 
+# #return an empty array if false 
+# arr_list
 
 end 
 end
 
-#https://stackoverflow.com/questions/39869703/ruby-anagram-codes
+# result = {}
 
-end
+# words.each do |word|
+#   key = word.split('').sort.join
+#   if result.has_key?(key)
+#     result[key].push(word)
+#   else
+#     result[key] = [word]
+#   end
+# end
+
+# result.each do |k, v|
+#   puts "------"
+#   p v
+# end
+
+# #https://stackoverflow.com/questions/39869703/ruby-anagram-codes
+
+# end
