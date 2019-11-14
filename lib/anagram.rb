@@ -24,9 +24,9 @@ if words == result
   return 
     result
 
-# else 
+ else 
 # # #return an empty array if false 
-# result == []
+nil
 end
 end
 
