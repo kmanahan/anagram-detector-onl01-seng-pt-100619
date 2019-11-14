@@ -12,3 +12,5 @@ result = []
 words = @word.split(//).join 
 arr.each do |x| x.sort
 end 
+
+end
