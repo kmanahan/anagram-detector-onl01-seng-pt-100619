@@ -26,9 +26,9 @@ anagram.split("").sort.join
 
 #return all matches if true
 
-else 
-#return an empty array if false 
-anagram_list
+# else 
+# #return an empty array if false 
+# anagram_list
 
 end 
 end
