@@ -8,29 +8,41 @@ def initialize(word)
 end 
 
 def match(arr)
-#empty array?
-result = []
+    arr.select do |word|
+    	# what is our check here?  
+    end
+    
+    # here, we are given an array of words.
+    # we have an instance variable with a word in it, lets pretend its 'cats'
+    
+    # and the array we're being passed in is ['acts', 'cast', 'hello']
+    
+    # this method needs to return the arr that's passed in, filtered down to only be the anagram matches.
+    
+    # so in this example, it should return ['acts', 'cast'] ("hello" should be filtered out)
+  end
+# def match(arr)
+# #empty array?
+# result = []
 
-#split word
-words = @word.split(//).sort.uniq
+# #split word
+# words = @word.split(//).sort.uniq
 
-binding.pry
+# binding.pry
 
-result << arr.join.split(//).sort.uniq
+# result << arr.join.split(//).sort.uniq
 
-#split words array
-if words == result
-  #return all matches in an array
-  return 
-    result
+# #split words array
+# if words == result
+#   #return all matches in an array
+#   return 
+#     result
 
-# else 
-# # #return an empty array if false 
-# result == []
-end
-end
-
-
+# # else 
+# # # #return an empty array if false 
+# # result == []
+# end
+# end
 
 
 
