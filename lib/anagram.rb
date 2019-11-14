@@ -10,7 +10,7 @@ end
 def match(arr)
   binding.pry
   result = []
-  words = @word.split(//).sort
+  words = @word.split(//).sort.join
   arr.sort
   
 end
