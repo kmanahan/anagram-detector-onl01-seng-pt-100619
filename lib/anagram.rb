@@ -26,7 +26,6 @@ if words == result
 
 else 
 # #return an empty array if false 
-return 
 result == []
 end
 end
