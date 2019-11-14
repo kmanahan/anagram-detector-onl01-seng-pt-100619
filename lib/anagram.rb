@@ -16,7 +16,7 @@ words = @word.split(//).sort.join
 
 binding.pry
 
-result << arr.join.split(//).sort.join
+result << arr.join.split(//).sort.join.uniq
 
 #split words array
 if words == result
