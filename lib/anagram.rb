@@ -7,19 +7,19 @@ def initialize(word)
   @word = word
 end 
 
-def match(anagram)
+def match(arr)
 #empty array?
-anagram_list = []
+result = []
 
 #split word
-word_array = @word.split(//).sort.join
+words = @word.split(//).sort.join
 
 binding.pry
 
 
 
-#split anagram
-anagram.join
+#split words array
+arr.join
 
 #check to see if they are equal
 #if word_array == anagram
