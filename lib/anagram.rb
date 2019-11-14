@@ -12,7 +12,7 @@ def match(anagram)
 anagram_list = []
 
 #split word
-word_array = @word.split(//).sort
+word_array = @word.split(//).sort.join
 
 binding.pry
 
