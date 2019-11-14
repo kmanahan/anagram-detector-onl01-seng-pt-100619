@@ -9,7 +9,7 @@ end
 
 def match(anagram)
 #empty array?
-anagram_list = []
+result = []
 
 #split word
 word_array = @word.split(//).sort.join
@@ -28,7 +28,7 @@ if word_array == anagram
 
 else 
 #return an empty array if false 
-anagram_list
+result
 
 end 
 end
