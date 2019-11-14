@@ -12,14 +12,17 @@ def match(anagram)
 anagram_list = []
 
 #split word
-word_array = @word.split(//).sort.join
+word_array = @word.split(//).sort
 
 binding.pry
 
 
 
 #split anagram
-anagram.split("").sort.join
+anagram.split("")
+
+#sort anagram also 
+anagram.each do |x| x.sort
 
 #check to see if they are equal
 if word_array == anagram
