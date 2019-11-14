@@ -31,7 +31,7 @@ if words == arr.join.split(//).sort.join
 
 else 
 # #return an empty array if false 
-result
+return result
 end
 end 
 
