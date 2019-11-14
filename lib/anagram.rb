@@ -22,6 +22,7 @@ binding.pry
 if words == arr.join.split(//).sort.join
   return 
     words
+  end
 
 #check to see if they are equal
 #if word_array == arr
