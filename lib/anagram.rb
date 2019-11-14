@@ -20,6 +20,7 @@ words = @word.split(//).sort.join
 
 #split words array
 if words == arr.join.split(//).sort.join
+  #return all matches in an array
   return 
     words
 
