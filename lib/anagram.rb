@@ -9,7 +9,7 @@ end
 #create method to split word
 def split_word 
 end 
-binding.pry
+#binding.pry
 
 
 #create method to compare("match"} anagram and word which would be inside anagram_list?
