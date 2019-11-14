@@ -27,7 +27,7 @@ word_array = @word.split(//).sort
 #compare sorted anagram to word_array 
 #=> ["a", "d", "e", "i", "p", "r"]
 #check to see if they are equal
-if word_array == arr
+word_array == arr
 
 #return all matches if true
 
