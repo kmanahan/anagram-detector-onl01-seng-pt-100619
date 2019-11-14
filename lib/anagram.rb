@@ -7,7 +7,7 @@ def initialize(word)
   @word = word
 end 
 
-def match(anagram)
+def match(arr)
 #empty array?
 result = []
 
@@ -22,7 +22,7 @@ binding.pry
 anagram.split("")
 
 #check to see if they are equal
-if word_array == anagram
+if word_array == arr
 
 #return all matches if true
 
