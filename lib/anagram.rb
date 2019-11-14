@@ -22,7 +22,7 @@ binding.pry
 arr.join
 
 #check to see if they are equal
-#if word_array == anagram
+if word_array == arr
 
 #return all matches if true
 
