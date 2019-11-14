@@ -19,7 +19,9 @@ binding.pry
 
 
 #split words array
-new = arr.join.split(//).sort.join
+if words == arr.join.split(//).sort.join
+  return 
+    words
 
 #check to see if they are equal
 #if word_array == arr
