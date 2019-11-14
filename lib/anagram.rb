@@ -1,13 +1,13 @@
 require "pry"
 class Anagram 
-  
+  binding.pry
+
 attr_accessor :word
 
 def initialize(word)
   @word = word
 end 
  
-binding.pry
 
 
 #create method to compare("match"} anagram and word which would be inside anagram_list?
