@@ -7,12 +7,36 @@ def initialize(word)
   @word = word
 end 
 
-def match(arr)
-  binding.pry
-  result = []
-  words = arr.split(//).sort.join
+def match(anagram)
+#empty array?
+anagram_list = []
 
-  
+#split word
+word_array = @word.split(//)
+
+#binding.pry
+
+#iterate through word and sort
+word_array.each do |x| x.sort
+
+#split anagram
+anagram.split("")
+
+#sort anagram also 
+anagram.each do |x| x.sort
+
+#check to see if they are equal
+if word_array == anagram
+
+#return all matches if true
+
+else 
+#return an empty array if false 
+anagram_list
+
+end 
+end
+end
 end
 
 end
