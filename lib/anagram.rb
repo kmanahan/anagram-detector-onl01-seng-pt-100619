@@ -24,9 +24,9 @@ if words == result
   return 
     result
 
-else 
-# #return an empty array if false 
-result == []
+# else 
+# # #return an empty array if false 
+# result == []
 end
 end
 
