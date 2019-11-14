@@ -8,6 +8,7 @@ def initialize(word)
 end 
 
 def match(arr)
+  binding.pry
     arr.select do |word|
     	@word.split('').sort == word.split('').sort
     end
