@@ -16,10 +16,10 @@ words = @word.split(//).sort.join
 
 binding.pry
 
-results << arr.join.split(//).sort.join
+result << arr.join.split(//).sort.join
 
 #split words array
-if words == results
+if words == result
   #return all matches in an array
   return 
     words
