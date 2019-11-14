@@ -12,7 +12,9 @@ def match(arr)
     arr.select do |word|
     	@word.split('').sort == word.split('').sort
     end
-    #
+    #.select => Returns a new array containing all elements of ary 
+    #           for which the given block returns a true value.
+    
     # here, we are given an array of words.
     # we have an instance variable with a word in it, lets pretend its 'cats'
     
