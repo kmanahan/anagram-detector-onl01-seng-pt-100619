@@ -33,7 +33,7 @@ word_array = @word.split(//).sort.join
 #else 
 # #return an empty array if false 
 # arr_list
-
+end
 end 
 
 
