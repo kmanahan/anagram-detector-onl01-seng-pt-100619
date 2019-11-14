@@ -7,7 +7,7 @@ def initialize(word)
   @word = word
 end 
 
-def match(anagram)
+def match(anagram, joined)
 #empty array?
 anagram_list = []
 
